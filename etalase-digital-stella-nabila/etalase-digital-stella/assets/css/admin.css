@@ -1,0 +1,44 @@
+.table-container {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.custom-table th, 
+.custom-table td {
+    padding: 12px 15px;
+    border: 1px solid #e5c9aa;
+    text-align: left;
+    font-size: 14px;
+}
+
+.custom-table th {
+    background: #b7845a;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #faf1e8;
+}
+
+.badge-role {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.badge-super_admin { background: #b7845a; color: white; }
+.badge-admin { background: #e8d7c2; color: #4f3528; }
+.badge-siswa { background: #f5ece2; color: #4f3528; }
